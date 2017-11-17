@@ -1,0 +1,75 @@
+main
+	h2	
+		font-size: 40px
+		text-align: center
+		background-color: $noir
+		padding: 20px 0
+		text-decoration: underline
+		text-decoration-color: $blue
+		color: white
+	section.services
+		.description
+			margin-right: 20px
+			width: 410px 
+
+			h3
+				padding-bottom: 30px
+				font-size: 30px
+			p 
+				text-align: justify
+
+
+		.illust
+			width: 400px
+			height: 200px
+			background-image: url(../img/placeholder1.png)
+			background-position: center
+			background-size: 100%
+			display: flex
+			flex-flow: column
+			align-items: center
+			justify-content: center
+
+	#blog, #vitrine
+		.description
+			margin-right: 0px
+			margin-left: 20px 
+
+	hr	
+		border: 3px solid white
+
+	.home
+		padding: 50px
+
+		.about
+			margin-bottom: 30px
+			display: flex
+			flex-flow: row wrap
+			justify-content: space-between
+			align-items: center
+
+			div 
+				width: 40%
+				p 
+					text-align: justify
+				h3
+					font-size: 30px
+
+		.why
+			margin-bottom: 30px
+			display: flex
+			flex-flow: column
+
+			div 
+				margin-bottom: 20px
+				p 
+					text-align: justify
+				h3
+					font-size: 30px
+				li
+					list-style: disc
+					margin-left: 15px
+					font-size: 18px
+
+			a
+				+center-content(200px)
